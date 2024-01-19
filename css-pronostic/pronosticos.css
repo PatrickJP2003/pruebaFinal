@@ -146,6 +146,7 @@ line-height: 1.6;
 font-size: 1.2em; 
 margin-top: 20px; 
 margin-bottom: 20px;
+align-items: center;
 }
 
 .imagen-gif2 {
@@ -159,4 +160,10 @@ height: auto;
   border-radius: 8px;
 
   
+}
+.jake{
+  display: block;
+  margin-left: 400px;
+  margin-right: 40px;
+  max-width: 70%;
 }
