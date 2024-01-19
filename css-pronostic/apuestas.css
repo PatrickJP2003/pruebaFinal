@@ -1,0 +1,42 @@
+.navbar {
+    margin-top: 20px;
+}    
+    body {
+      font-family: "Noto Sans JP", sans-serif;
+      background-image: url(https://img.freepik.com/foto-gratis/hermosa-joven-delgada-haciendo-ejercicios-estiramiento-gimnasio-contra-blanco_155003-17254.jpg);
+  }
+  
+  .table-container {
+      margin: 0 auto;
+      width: 80%;
+      font-family: Arial, sans-serif;
+  }
+  
+  table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 2px solid #c9cc33;
+      background-color: rgba(228, 206, 15, 0.925); /* Fondo amarillo para toda la tabla */
+  }
+  
+  caption {
+      text-align: left;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+  }
+  
+  th,
+  td {
+      border: 1px solid #ccc933;
+      padding: 35px;
+      text-align: center;
+      color: white; /* Texto en blanco */
+  }
+  
+  tfoot {
+      background-color: #e4bb05c9;
+      font-weight: bold;
+  }
+
+

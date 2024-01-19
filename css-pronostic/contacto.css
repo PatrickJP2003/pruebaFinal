@@ -1,0 +1,134 @@
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(https://img.freepik.com/foto-gratis/hermosa-joven-delgada-haciendo-ejercicios-estiramiento-gimnasio-contra-blanco_155003-17254.jpg);
+}
+.navbar {
+    margin-top: 20px;
+    
+  }
+  .image-container {
+    width: 100%;
+    max-height: 450px; /* Altura máxima deseada para la imagen */
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin perder su relación de aspecto */
+    display: block;
+}
+.contactos {
+    display: flex;
+    justify-content: space-around; /* Distribuye uniformemente los elementos */
+}
+
+.contact-item {
+    flex: 1; /* Que todos los elementos tengan el mismo tamaño */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.mensaje {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color:#CC9900;
+  }
+  .redes-sociales {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-logo {
+    width: 80px; /* Tamaño más pequeño */
+    height: auto; /* Mantiene la proporción original */
+    border: none; /* Quita el borde de la imagen */
+    margin-right: 10px; /* Espacio entre los logotipos */
+  }
+  .message-container {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px; /* Ajusta la separación en la parte inferior del mensaje */
+    color: #CC9900;
+}
+
+footer {
+    background-color: #cc9900;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente el contenido */
+}
+
+.footer-content {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.imagenred {
+  max-width: 100%;
+  width: 800px; /* Cambia el ancho de la imagen según tus necesidades */
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto; /* Centra la imagen en el contenedor */
+  display: block;
+}
+.contenedor-imagenes {
+    position: relative;
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative; /* Añade posición relativa para posicionar el GIF respecto a este contenedor */
+}
+
+.imagen-gif {
+  position: relative; /* Cambia a posición relativa */
+  top: 20px; /* Ajusta según sea necesario para la separación desde la parte superior */
+  right: 0;
+  /* Otra ajustes según sea necesario para posicionar la imagen GIF */
+}
+.logo {
+  max-width: 100%; /* La imagen ocupará el 100% del ancho disponible */
+  height: auto; /* Mantiene la proporción de aspecto original */
+  display: block; /* Elimina el espacio adicional debajo de la imagen */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.contact-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-item .map-icon {
+    width: 150px; /* Ajusta el ancho del icono del mapa */
+}
+
+  .text-container {
+    text-align: center; /* Centra el texto horizontalmente */
+    color: white; /* Color del texto */
+    font-family: Arial, sans-serif; /* Cambia la familia de fuente */
+    font-size: 18px; /* Cambia el tamaño de la fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+    padding: 20px; /* Agrega espaciado dentro del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    max-width: 600px; /* Define un ancho máximo para el contenedor */
+}
+
+ 
+  
+  

@@ -1,0 +1,29 @@
+
+
+  body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(https://img.freepik.com/foto-gratis/hermosa-joven-delgada-haciendo-ejercicios-estiramiento-gimnasio-contra-blanco_155003-17254.jpg);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(23, 22, 22);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    position: relative; /* Agregamos posición relativa al body */
+}
+
+.container {
+    width: 300px;
+    margin: auto;
+}
+
+.close-button {
+    position: absolute; /* Cambiamos a posición absoluta */
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    z-index: 999; /* Asegura que el botón de cerrar esté sobre otros elementos */
+}

@@ -1,0 +1,165 @@
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  background-image: url(https://img.freepik.com/foto-gratis/hermosa-joven-delgada-haciendo-ejercicios-estiramiento-gimnasio-contra-blanco_155003-17254.jpg);
+  margin: 0;
+}
+.navbar {
+  margin-top: 20px;
+  
+}
+
+.carousel-imagenes {
+  width: 100%; /* Ancho del carrusel */
+  margin: auto; /* Centrar el carrusel */
+  height: 200px;
+
+}
+.button-container button {
+  margin: 5px;
+  background-color:#CC9900;
+  color: black; /* Color del texto de los botones */
+  border: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s; /* Transición al cambiar el color */
+}
+
+.button-container button:hover {
+  background-color: green; /* Cambia a verde al pasar el cursor */
+  color: white; /* Cambia el color del texto a blanco al pasar el cursor */
+}
+
+.button-container button.selected {
+  background-color: green; /* Mantiene el color de fondo verde cuando está seleccionado */
+  color: white; /* Cambia el color del texto a blanco cuando está seleccionado */
+}
+.mensaje {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color:#CC9900;
+}
+.redes-sociales {
+  display: flex;
+  align-items: center;
+}
+
+.social-logo {
+  width: 80px; /* Tamaño más pequeño */
+  height: auto; /* Mantiene la proporción original */
+  border: none; /* Quita el borde de la imagen */
+  margin-right: 10px; /* Espacio entre los logotipos */
+}
+.message-container {
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px; /* Ajusta la separación en la parte inferior del mensaje */
+  color: #CC9900;
+}
+
+footer {
+  background-color: #cc9900;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  align-items: center; /* Alinea verticalmente el contenido */
+}
+
+.footer-content {
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.imagenred {
+max-width: 100%;
+width: 800px; /* Cambia el ancho de la imagen según tus necesidades */
+height: 400px;
+margin-left: auto;
+margin-right: auto; /* Centra la imagen en el contenedor */
+display: block;
+}
+.contenedor-imagenes {
+  position: relative;
+}
+
+.redes-sociales {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative; /* Añade posición relativa para posicionar el GIF respecto a este contenedor */
+}
+
+.imagen-gif {
+position: relative; /* Cambia a posición relativa */
+top: 20px; /* Ajusta según sea necesario para la separación desde la parte superior */
+right: 0;
+/* Otra ajustes según sea necesario para posicionar la imagen GIF */
+}
+.logo {
+max-width: 100%; /* La imagen ocupará el 100% del ancho disponible */
+height: auto; /* Mantiene la proporción de aspecto original */
+display: block; /* Elimina el espacio adicional debajo de la imagen */
+margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+.containerImagen {
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 2px solid #CC9900;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f7f6f2;
+}
+
+.image-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.image-container img {
+  width: 100%;
+  height: 25%;
+  object-fit: cover;
+  object-position: center; /* Center the image within the container */
+  border-radius: 8px;
+}
+.content {
+width: 100%; /* Ancho del contenido al 100% del contenedor */
+box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+text-align: justify;
+}.content h2 {
+color: #CC9900;
+text-align: center;
+font-size: 2em; /* Tamaño de fuente personalizado */
+}
+
+.content p {
+color: #1a1a1a; /* Cambia el color del texto a un tono diferente */
+line-height: 1.6; /* Espaciado entre líneas */
+font-size: 1.2em; /* Tamaño de fuente personalizado */
+margin-top: 20px; /* Espacio superior */
+margin-bottom: 20px; /* Espacio inferior */
+}
+
+.imagen-gif2 {
+display: block; /* Hace que la imagen sea un bloque */
+margin: 0 auto; /* Centra horizontalmente */
+max-width: 100%; /* Ajusta el tamaño máximo al 100% del contenedor */
+height: auto; /* Mantiene la proporción original */
+}
+.mi-img{
+  width: 100%;
+  height: 200px; /* Center the image within the container */
+  border-radius: 8px;
+
+  
+}

@@ -1,0 +1,79 @@
+.navbar {
+    margin-top: 20px;
+} 
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    background-image: url(https://img.freepik.com/foto-gratis/hermosa-joven-delgada-haciendo-ejercicios-estiramiento-gimnasio-contra-blanco_155003-17254.jpg);
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+}
+
+.close-button {
+    position: absolute; /* Cambiamos a posición absoluta */
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #f80b0b;
+    z-index: 999; /* Asegura que el botón de cerrar esté sobre otros elementos */
+}
+
+.top-image,
+.bottom-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 15px; /* Aumentado el espacio entre contraseña y el botón */
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 15px;
+}
+
+p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
