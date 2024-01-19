@@ -7,7 +7,7 @@ body {
   background-image: url(https://img.freepik.com/foto-gratis/hermosa-joven-delgada-haciendo-ejercicios-estiramiento-gimnasio-contra-blanco_155003-17254.jpg);
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2; /* Agregado el color de fondo */
+  background-color: #f2f2f2; 
 }
 
 .trend-section {
@@ -38,16 +38,16 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  object-fit: cover; /* Ajuste para llenar completamente el contenedor */
+  object-fit: cover; 
 }
 
 .button-container {
-  text-align: left; /* Alineado a la izquierda */
+  text-align: left; 
 }
 
 .button-container button {
-  background-color: #000; /* Negro */
-  color: white; /* Blanco */
+  background-color: #000; 
+  color: white; 
   border: none;
   padding: 12px 24px;
   text-align: center;
@@ -55,13 +55,13 @@ body {
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
-  max-width: 200px; /* Ajusta el ancho máximo según tus preferencias */
+  max-width: 200px; 
   width: 100%;
   transition: background-color 0.3s;
 }
 
 .button-container button:hover {
-  background-color: #333; /* Cambiado a un tono ligeramente diferente al pasar el mouse */
+  background-color: #333; 
 }
 
 .titulo {

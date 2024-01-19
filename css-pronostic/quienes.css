@@ -55,15 +55,15 @@ body {
   }
   
   .social-logo {
-    width: 80px; /* Tamaño más pequeño */
-    height: auto; /* Mantiene la proporción original */
-    border: none; /* Quita el borde de la imagen */
-    margin-right: 10px; /* Espacio entre los logotipos */
+    width: 80px; 
+    height: auto; 
+    border: none; 
+    margin-right: 10px; 
   }
   .message-container {
     margin-top: 10px;
     text-align: center;
-    margin-bottom: 20px; /* Ajusta la separación en la parte inferior del mensaje */
+    margin-bottom: 20px; 
     color: yellow;
   }
   .video {
@@ -89,15 +89,15 @@ iframe {
 }
 
 .social-logo {
-  width: 80px; /* Tamaño más pequeño */
-  height: auto; /* Mantiene la proporción original */
-  border: none; /* Quita el borde de la imagen */
-  margin-right: 10px; /* Espacio entre los logotipos */
+  width: 80px; 
+  height: auto; 
+  border: none; 
+  margin-right: 10px; 
 }
 .message-container {
   margin-top: 10px;
   text-align: center;
-  margin-bottom: 20px; /* Ajusta la separación en la parte inferior del mensaje */
+  margin-bottom: 20px; 
   color: #CC9900;
 }
 
@@ -106,12 +106,12 @@ footer {
   padding: 20px;
   color: white;
   display: flex;
-  justify-content: space-between; /* Distribuye el espacio entre los elementos */
-  align-items: center; /* Alinea verticalmente el contenido */
+  justify-content: space-between;
+  align-items: center; 
 }
 
 .footer-content {
-  text-align: left; /* Alinea el texto a la izquierda */
+  text-align: left; 
 }
 
 footer a {
@@ -125,10 +125,10 @@ footer a:hover {
 
 .imagenred {
 max-width: 100%;
-width: 800px; /* Cambia el ancho de la imagen según tus necesidades */
+width: 800px; 
 height: 400px;
 margin-left: auto;
-margin-right: auto; /* Centra la imagen en el contenedor */
+margin-right: auto; 
 display: block;
 }
 .contenedor-imagenes {
@@ -139,20 +139,20 @@ display: block;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  position: relative; /* Añade posición relativa para posicionar el GIF respecto a este contenedor */
+  position: relative; 
 }
 
 .imagen-gif {
-position: relative; /* Cambia a posición relativa */
-top: 20px; /* Ajusta según sea necesario para la separación desde la parte superior */
+position: relative; 
+top: 20px; 
 right: 0;
-/* Otra ajustes según sea necesario para posicionar la imagen GIF */
+
 }
 .logo {
-max-width: 100%; /* La imagen ocupará el 100% del ancho disponible */
-height: auto; /* Mantiene la proporción de aspecto original */
-display: block; /* Elimina el espacio adicional debajo de la imagen */
-margin: 0 auto; /* Centra la imagen horizontalmente */
+max-width: 100%; 
+height: auto;
+display: block; 
+margin: 0 auto; 
 }  
 
 .nosotros-section {
@@ -162,28 +162,28 @@ margin: 0 auto; /* Centra la imagen horizontalmente */
 
 .content-container {
   display: flex;
-  justify-content: space-between; /* Distribuye el espacio entre los elementos */
-  align-items: center; /* Alinea verticalmente los elementos al centro */
-  text-align: justify; /* Alinea el texto justificado */
-  padding: 20px; /* Ajusta el espacio interno según sea necesario */
-  background-color: #CC9900; /* Color de fondo del contenedor */
-  border: 2px solid #ebe9e5; /* Borde del contenedor */
-  border-radius: 10px; /* Esquinas redondeadas del contenedor */
+  justify-content: space-between; 
+  align-items: center;
+  text-align: justify; 
+  padding: 20px; 
+  background-color: #CC9900; 
+  border: 2px solid #ebe9e5; 
+  border-radius: 10px;
 }
 
 .content-container img {
-  max-width: 100%; /* Ajusta el ancho máximo de las imágenes */
-  height: auto; /* Mantiene la proporción de aspecto original */
-  border-radius: 8px; /* Agrega esquinas redondeadas a las imágenes si lo deseas */
+  max-width: 100%;
+  height: auto; 
+  border-radius: 8px;
 }
 
 .letracolor {
-  color: rgb(10, 10, 10); /* Color del texto */
-  font-family: "Nombre de la fuente", sans-serif; /* Cambia por la fuente que prefieras */
-  font-size: 1.2em; /* Tamaño del texto */
+  color: rgb(10, 10, 10); 
+  font-family: "Nombre de la fuente", sans-serif; 
+  font-size: 1.2em; 
 }
 
-/* Ordena la imagen para que aparezca primero */
+
 .image-containers {
   order: -1;
 }

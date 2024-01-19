@@ -2,22 +2,20 @@
     margin-top: 20px;
 }
 
-/* Estilos generales del cuerpo de la página */
 body {
-    font-family: "Noto Sans JP", Arial, sans-serif; /* Usar varias fuentes de respaldo */
+    font-family: "Noto Sans JP", Arial, sans-serif; 
     background-image: url(https://img.freepik.com/foto-gratis/hermosa-joven-delgada-haciendo-ejercicios-estiramiento-gimnasio-contra-blanco_155003-17254.jpg);
     background-color: #f0f0f0;
     padding: 20px;
-    color: #000; /* Cambiado el color del texto a negro */
+    color: #000; 
 }
 
-/* Estilos para los títulos principales */
+
 h1 {
     text-align: center;
     color: #f1cf0a;
 }
 
-/* Estilos para los contenedores de video */
 .video {
     margin-bottom: 30px;
     background-color: #d19d0f;
@@ -25,13 +23,11 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para centrar el iframe dentro de .video */
 .video iframe {
     display: block;
     margin: 0 auto;
 }
 
-/* Estilos para el mensaje */
 .mensaje {
     text-align: center;
     font-size: 1.2em;
@@ -39,7 +35,6 @@ h1 {
     color: #CC9900;
 }
 
-/* Estilos para las redes sociales */
 .redes-sociales {
     display: flex;
     align-items: center;
@@ -52,7 +47,6 @@ h1 {
     margin-right: 10px;
 }
 
-/* Estilos para el contenedor del mensaje */
 .message-container {
     margin-top: 10px;
     text-align: center;
@@ -60,7 +54,6 @@ h1 {
     color: #CC9900;
 }
 
-/* Estilos para el pie de página */
 footer {
     background-color: #cc9900;
     padding: 20px;
@@ -83,7 +76,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Estilos para la imagen red */
 .imagenred {
     max-width: 100%;
     width: 800px;
@@ -93,12 +85,10 @@ footer a:hover {
     display: block;
 }
 
-/* Estilos para el contenedor de imágenes */
 .contenedor-imagenes {
     position: relative;
 }
 
-/* Estilos para las redes sociales */
 .redes-sociales {
     display: flex;
     align-items: center;
@@ -106,14 +96,12 @@ footer a:hover {
     position: relative;
 }
 
-/* Estilos para la imagen GIF */
 .imagen-gif {
     position: relative;
     top: 20px;
     right: 0;
 }
 
-/* Estilos para el logotipo */
 .logo {
     max-width: 100%;
     height: auto;

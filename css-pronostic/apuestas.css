@@ -16,7 +16,7 @@
       border-collapse: collapse;
       width: 100%;
       border: 2px solid #c9cc33;
-      background-color: rgba(228, 206, 15, 0.925); /* Fondo amarillo para toda la tabla */
+      background-color: rgba(228, 206, 15, 0.925); 
   }
   
   caption {
@@ -31,7 +31,7 @@
       border: 1px solid #ccc933;
       padding: 35px;
       text-align: center;
-      color: white; /* Texto en blanco */
+      color: white; 
   }
   
   tfoot {

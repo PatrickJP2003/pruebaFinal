@@ -15,7 +15,7 @@ body {
   
   .results-table {
     margin-bottom: 20px;
-    background-color: white; /* Cambia el color de fondo de la tabla a amarillo */
+    background-color: white;
   }
   
   .table {
@@ -56,15 +56,15 @@ body {
   }
   
   .social-logo {
-    width: 80px; /* Tamaño más pequeño */
-    height: auto; /* Mantiene la proporción original */
-    border: none; /* Quita el borde de la imagen */
-    margin-right: 10px; /* Espacio entre los logotipos */
+    width: 80px; 
+    height: auto; 
+    border: none; 
+    margin-right: 10px; 
   }
   .message-container {
     margin-top: 10px;
     text-align: center;
-    margin-bottom: 20px; /* Ajusta la separación en la parte inferior del mensaje */
+    margin-bottom: 20px; 
     color: #CC9900;
 }
 
@@ -73,12 +73,12 @@ footer {
     padding: 20px;
     color: white;
     display: flex;
-    justify-content: space-between; /* Distribuye el espacio entre los elementos */
-    align-items: center; /* Alinea verticalmente el contenido */
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .footer-content {
-    text-align: left; /* Alinea el texto a la izquierda */
+    text-align: left;
 }
 
 footer a {
@@ -92,10 +92,10 @@ footer a:hover {
 
 .imagenred {
   max-width: 100%;
-  width: 800px; /* Cambia el ancho de la imagen según tus necesidades */
+  width: 800px; 
   height: 400px;
   margin-left: auto;
-  margin-right: auto; /* Centra la imagen en el contenedor */
+  margin-right: auto; 
   display: block;
 }
 .contenedor-imagenes {
@@ -106,19 +106,19 @@ footer a:hover {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-    position: relative; /* Añade posición relativa para posicionar el GIF respecto a este contenedor */
+    position: relative;
 }
 
 .imagen-gif {
-  position: relative; /* Cambia a posición relativa */
-  top: 20px; /* Ajusta según sea necesario para la separación desde la parte superior */
+  position: relative; 
+  top: 20px; 
   right: 0;
-  /* Otra ajustes según sea necesario para posicionar la imagen GIF */
+  
 }
 .logo {
-  max-width: 100%; /* La imagen ocupará el 100% del ancho disponible */
-  height: auto; /* Mantiene la proporción de aspecto original */
-  display: block; /* Elimina el espacio adicional debajo de la imagen */
-  margin: 0 auto; /* Centra la imagen horizontalmente */
+  max-width: 100%; 
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
 }
   

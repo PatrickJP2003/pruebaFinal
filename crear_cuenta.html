@@ -17,12 +17,12 @@
         <span class="close-button" onclick="window.location.href='index.html'" style="color: red;">&times;</span>
         <h2  style="color: azure;text-align: center;" >Crear Cuenta</h2>
         <br>       
-        <form>
+        <form action="php/registro.php" method="post">
             <label for="email" style="color: azure;">Correo:</label>
             <input type="email" id="email" name="email" required>
 <br>
             <label for="password"  style="color: azure;">Contraseña:</label>
-            <input type="password" id="password" name="password" required>
+            <input type="password" id="password" name="contrasenia" required>
 <br>
             <label for="confirmPassword"  style="color: azure;">Confirmar Contraseña:</label>
             <input type="password" id="confirmPassword" name="confirmPassword" required>

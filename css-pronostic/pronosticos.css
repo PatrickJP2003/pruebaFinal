@@ -10,28 +10,27 @@ body {
 }
 
 .carousel-imagenes {
-  width: 100%; /* Ancho del carrusel */
-  margin: auto; /* Centrar el carrusel */
+  width: 100%; 
+  margin: auto; 
   height: 200px;
 
 }
 .button-container button {
   margin: 5px;
   background-color:#CC9900;
-  color: black; /* Color del texto de los botones */
+  color: black;
   border: none;
   padding: 5px 10px;
-  transition: background-color 0.3s, color 0.3s; /* Transición al cambiar el color */
+  transition: background-color 0.3s, color 0.3s; 
 }
 
 .button-container button:hover {
-  background-color: green; /* Cambia a verde al pasar el cursor */
-  color: white; /* Cambia el color del texto a blanco al pasar el cursor */
+  background-color: green; 
+  color: white; 
 }
-
 .button-container button.selected {
-  background-color: green; /* Mantiene el color de fondo verde cuando está seleccionado */
-  color: white; /* Cambia el color del texto a blanco cuando está seleccionado */
+  background-color: green; 
+  color: white; 
 }
 .mensaje {
   text-align: center;
@@ -45,15 +44,15 @@ body {
 }
 
 .social-logo {
-  width: 80px; /* Tamaño más pequeño */
-  height: auto; /* Mantiene la proporción original */
-  border: none; /* Quita el borde de la imagen */
-  margin-right: 10px; /* Espacio entre los logotipos */
+  width: 80px; 
+  height: auto; 
+  border: none; 
+  margin-right: 10px; 
 }
 .message-container {
   margin-top: 10px;
   text-align: center;
-  margin-bottom: 20px; /* Ajusta la separación en la parte inferior del mensaje */
+  margin-bottom: 20px; 
   color: #CC9900;
 }
 
@@ -62,12 +61,12 @@ footer {
   padding: 20px;
   color: white;
   display: flex;
-  justify-content: space-between; /* Distribuye el espacio entre los elementos */
-  align-items: center; /* Alinea verticalmente el contenido */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .footer-content {
-  text-align: left; /* Alinea el texto a la izquierda */
+  text-align: left;
 }
 
 footer a {
@@ -81,10 +80,10 @@ footer a:hover {
 
 .imagenred {
 max-width: 100%;
-width: 800px; /* Cambia el ancho de la imagen según tus necesidades */
+width: 800px; 
 height: 400px;
 margin-left: auto;
-margin-right: auto; /* Centra la imagen en el contenedor */
+margin-right: auto; 
 display: block;
 }
 .contenedor-imagenes {
@@ -95,20 +94,19 @@ display: block;
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-  position: relative; /* Añade posición relativa para posicionar el GIF respecto a este contenedor */
+  position: relative; 
 }
 
 .imagen-gif {
-position: relative; /* Cambia a posición relativa */
-top: 20px; /* Ajusta según sea necesario para la separación desde la parte superior */
+position: relative; 
+top: 20px; 
 right: 0;
-/* Otra ajustes según sea necesario para posicionar la imagen GIF */
 }
 .logo {
-max-width: 100%; /* La imagen ocupará el 100% del ancho disponible */
-height: auto; /* Mantiene la proporción de aspecto original */
-display: block; /* Elimina el espacio adicional debajo de la imagen */
-margin: 0 auto; /* Centra la imagen horizontalmente */
+max-width: 100%; 
+height: auto; 
+display: block;
+margin: 0 auto; 
 }
 .containerImagen {
   width: 80%;
@@ -129,36 +127,35 @@ margin: 0 auto; /* Centra la imagen horizontalmente */
   width: 100%;
   height: 25%;
   object-fit: cover;
-  object-position: center; /* Center the image within the container */
+  object-position: center; 
   border-radius: 8px;
 }
 .content {
-width: 100%; /* Ancho del contenido al 100% del contenedor */
-box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+width: 100%; 
+box-sizing: border-box; 
 text-align: justify;
 }.content h2 {
 color: #CC9900;
 text-align: center;
-font-size: 2em; /* Tamaño de fuente personalizado */
+font-size: 2em; 
 }
 
 .content p {
-color: #1a1a1a; /* Cambia el color del texto a un tono diferente */
-line-height: 1.6; /* Espaciado entre líneas */
-font-size: 1.2em; /* Tamaño de fuente personalizado */
-margin-top: 20px; /* Espacio superior */
-margin-bottom: 20px; /* Espacio inferior */
+color: #1a1a1a; 
+line-height: 1.6; 
+font-size: 1.2em; 
+margin-top: 20px; 
+margin-bottom: 20px;
 }
 
 .imagen-gif2 {
-display: block; /* Hace que la imagen sea un bloque */
-margin: 0 auto; /* Centra horizontalmente */
-max-width: 100%; /* Ajusta el tamaño máximo al 100% del contenedor */
-height: auto; /* Mantiene la proporción original */
+display: block;
+max-width: 100%; 
+height: auto; 
 }
 .mi-img{
   width: 100%;
-  height: 200px; /* Center the image within the container */
+  height: 200px; 
   border-radius: 8px;
 
   
